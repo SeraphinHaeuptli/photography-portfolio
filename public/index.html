@@ -3,19 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A responsive photography portfolio gallery.">
-    <title>Photography Portfolio</title>
+    <meta name="description" content="Photography portfolio of Seraphin Haeuptli, based in Switzerland near Aarau.">
+    <title>Seraphin Haeuptli - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main>
       <header>
-        <h1>Photography</h1>
-        <p>A small collection of moments, places, and quiet light.</p>
+        <a class="brand" href="index.html">SERAPHIN HAEUPTLI</a>
+        <nav aria-label="Main navigation">
+          <a class="active" href="index.html">PORTFOLIO</a>
+          <a href="#about">ABOUT ME</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
       </header>
-      <section id="gallery" aria-live="polite" aria-label="Photo gallery">
-        <p>Loading gallery...</p>
-      </section>
+      <h1>PORTFOLIO</h1>
+      <section id="gallery" aria-live="polite" aria-label="Photo gallery"><p>Loading gallery...</p></section>
+      <footer>
+        <strong>SERAPHIN HAEUPTLI</strong>
+        <p id="contact">Near Aarau<br><a href="tel:+41767257574">+41 76 725 75 74</a><br><a href="mailto:seraphin@setsail.ch">seraphin@setsail.ch</a></p>
+      </footer>
     </main>
     <script src="gallery.js"></script>
   </body>

@@ -102,8 +102,6 @@ async function loadGallery() {
         image.src = `images/${photo.filename}`;
         image.alt = photo.alt;
         image.loading = "lazy";
-        image.width = 1200;
-        image.height = 900;
         image.addEventListener("click", () => openLightbox(image));
 
         figure.append(image);

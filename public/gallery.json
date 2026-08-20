@@ -12,6 +12,12 @@
     "alt": "Mountain landscape under an open sky"
   },
   {
+    "id": "buesch",
+    "filename": "büsch.jpg",
+    "title": "Bush and natural landscape",
+    "alt": "Bush and natural landscape"
+  },
+  {
     "id": "cat",
     "filename": "cat.jpg",
     "title": "Cat",
@@ -22,5 +28,23 @@
     "filename": "chile.jpg",
     "title": "Landscape in Chile",
     "alt": "A wide landscape in Chile"
+  },
+  {
+    "id": "luechtturm",
+    "filename": "lüchtturm.jpg",
+    "title": "Lighthouse",
+    "alt": "A lighthouse by the water"
+  },
+  {
+    "id": "mond",
+    "filename": "mond.jpg",
+    "title": "Moon",
+    "alt": "The moon in the night sky"
+  },
+  {
+    "id": "sakura",
+    "filename": "sakura.jpg",
+    "title": "Sakura blossoms",
+    "alt": "Sakura blossoms against the sky"
   }
 ]
