@@ -24,6 +24,20 @@ main {
   padding: 2.5rem 1.25rem 3rem;
 }
 
+.text-page {
+  max-width: 1200px;
+}
+
+.text-page > p {
+  max-width: 42rem;
+  color: #bdbdbd;
+  font-size: 1.2rem;
+}
+
+.text-page > p a {
+  color: #fff;
+}
+
 header {
   display: flex;
   align-items: center;
