@@ -54,6 +54,7 @@ function openLightbox(sourceImage) {
   const targetRect = getTargetRect(image);
   closeButton.style.top = `${targetRect.top + 12}px`;
   closeButton.style.left = `${targetRect.left + targetRect.width - 52}px`;
+  void image.offsetWidth;
 
   requestAnimationFrame(() => {
     overlay.classList.add("is-open");
