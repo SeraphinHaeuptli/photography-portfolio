@@ -1,0 +1,26 @@
+[
+  {
+    "id": "aug",
+    "filename": "aug.jpg",
+    "title": "August landscape",
+    "alt": "A quiet August landscape"
+  },
+  {
+    "id": "berg",
+    "filename": "berg.jpg",
+    "title": "Mountain landscape",
+    "alt": "Mountain landscape under an open sky"
+  },
+  {
+    "id": "cat",
+    "filename": "cat.jpg",
+    "title": "Cat",
+    "alt": "A cat looking toward the camera"
+  },
+  {
+    "id": "chile",
+    "filename": "chile.jpg",
+    "title": "Landscape in Chile",
+    "alt": "A wide landscape in Chile"
+  }
+]
