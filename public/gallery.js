@@ -103,14 +103,7 @@ async function loadGallery() {
         image.loading = "lazy";
         image.width = 1200;
         image.height = 900;
-        image.tabIndex = 0;
         image.addEventListener("click", () => openLightbox(image));
-        image.addEventListener("keydown", (event) => {
-          if (event.key === "Enter" || event.key === " ") {
-            event.preventDefault();
-            openLightbox(image);
-          }
-        });
 
         const caption = document.createElement("figcaption");
         caption.textContent = photo.title;
