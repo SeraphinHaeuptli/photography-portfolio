@@ -106,10 +106,7 @@ async function loadGallery() {
         image.height = 900;
         image.addEventListener("click", () => openLightbox(image));
 
-        const caption = document.createElement("figcaption");
-        caption.textContent = photo.title;
-
-        figure.append(image, caption);
+        figure.append(image);
         return figure;
       }),
     );
