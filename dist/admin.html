@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Admin - Seraphin Haeuptli</title>
+  <link rel="stylesheet" href="output.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-white px-5 py-8 text-black dark:bg-black dark:text-white md:px-20">
+  <main class="mx-auto max-w-3xl">
+    <header class="mb-10 flex items-center justify-between gap-4">
+      <div>
+        <p class="text-sm uppercase tracking-widest text-neutral-500">Portfolio admin</p>
+        <h1 class="text-4xl font-bold">Manage photos</h1>
+      </div>
+      <a href="../index.html" class="text-sm underline">View portfolio</a>
+    </header>
+
+    <section class="mb-8 border-b border-neutral-200 pb-8 dark:border-neutral-800">
+      <label for="photo-input" class="mb-3 block text-lg font-semibold">Add photos</label>
+      <input id="photo-input" type="file" accept="image/*" multiple
+        class="block w-full rounded border border-neutral-300 p-3 text-sm dark:border-neutral-700 dark:bg-neutral-900" />
+      <p class="mt-2 text-sm text-neutral-500">Photos are saved in this browser only.</p>
+    </section>
+
+    <section>
+      <div class="mb-3 flex items-center justify-between gap-4">
+        <h2 class="text-lg font-semibold">Portfolio photos</h2>
+        <button id="restore-photos" type="button" class="text-sm underline">Restore removed</button>
+      </div>
+      <p id="admin-status" class="mb-2 min-h-5 text-sm text-neutral-500" aria-live="polite"></p>
+      <ul id="photo-list"></ul>
+    </section>
+  </main>
+  <script src="admin.js"></script>
+</body>
+
+</html>
